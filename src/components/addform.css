@@ -1,0 +1,6 @@
+input:not([type]):focus:not([readonly]),
+input[type='text']:not(.browser-default):focus:not([readonly]) {
+  border-bottom: 0.5px solid #2196f3;
+  -webkit-box-shadow: 0 0.5px 0 0 #2196f3;
+  box-shadow: 0 0.5px 0 0 #2196f3;
+}
