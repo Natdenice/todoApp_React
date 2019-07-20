@@ -6,17 +6,17 @@ class App extends Component {
   state = {
     todos: [
       {
-        content: 'Buy a new Jet',
+        content: 'Learn React',
         id: 1,
         completed: false
       },
       {
-        content: 'Buy a new Car',
+        content: 'Learn Redux',
         id: 2,
         completed: false
       },
       {
-        content: 'Buy a new house',
+        content: 'Learn React Router',
         id: 3,
         isCompleted: false
       }
